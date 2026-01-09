@@ -147,3 +147,38 @@ a{
     margin-bottom: 120px;
 }
 
+/*brainstorming part*/
+
+#brainstorming .brainstorming-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.brainstorming-container .brainstorming-text{
+    padding: 100px 0;
+}
+.brainstorming-container .brainstorming-text h6{
+    color: #30B868;
+    font-size: 15px;
+    line-height: 10px;
+    padding-bottom: 16px;
+}
+.brainstorming-container .brainstorming-text h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.brainstorming-container .brainstorming-text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #627382;
+    padding-bottom: 40px;
+}
+.brainstorming-container .brainstorming-text li{
+    font-size: 15px;
+    font-weight: 500;
+    list-style:none;
+    padding-bottom: 16px;
+}
+
