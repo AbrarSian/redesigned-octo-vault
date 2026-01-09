@@ -5,3 +5,32 @@
 .font-inter {
   font-family: "Inter", sans-serif;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+}
+.sec-btn{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.btn-main{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    background-color: #30B868;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-main:hover{
+    background-color: #0e2613;
+}
