@@ -182,3 +182,33 @@ a{
     padding-bottom: 16px;
 }
 
+/*challenge section*/
+
+#challenge .challenge-container{
+    height: 385px;
+    width: 80%;
+    text-align: center;
+    margin: 115px 120px 150px;
+    background-color: #F7F6F2;
+    border-radius: 15px;
+}
+.challenge-header h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding: 80px 40px 16px 40px;
+}
+#challenge .style2{
+    width: 20%;
+}
+.challenge-header p{
+    color: #627382;
+    padding-bottom: 24px;
+    font-size: 16px;
+}
+.extra1{
+    padding-top: 16px;
+    color: #627382;
+    font-size: 16px;
+}
+
