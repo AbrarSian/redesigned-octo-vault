@@ -11,6 +11,7 @@ nav{
     align-items: center;
     width: 80%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .sec-btn{
     display: flex;
@@ -34,3 +35,63 @@ a{
 .btn-main:hover{
     background-color: #0e2613;
 }
+
+#hero{
+    padding-top: 115px;
+    height: 600px;
+    background-size: cover;
+    background-image:url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.hero-title{
+    height: 36px;
+    width: 240px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+#hero .hero-title a{
+    padding-top: 8px;
+    text-decoration: none;
+    color: #30B868;
+}
+#hero .hero-title img{
+    padding: 5px;
+}
+.hero-text h2{
+    font-size: 70px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.hero-text #color{
+    color: #30B868;
+}
+.hero-text p{
+    color: #ffffffba;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#hero .hero-btn{
+    padding: 16px 46px 16px 16px;
+    border: none;
+    border-radius: 5px;
+    width: 240px;
+    background-color: #469165;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+#hero .hero-btn:hover{
+    background-color: #436b32;
+}
+#hero .style1{
+    border: 1px solid white;
+    background-color: #46916500;
+}
+#hero .style1:hover{
+    background-color: #caccc99c;
+}
+
